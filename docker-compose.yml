@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+    app:
+        image: app
+        container-name: app
+        mem_limit: 512M
+        ports:
+        - 80:8080
